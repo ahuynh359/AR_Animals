@@ -45,10 +45,8 @@ MonoBehaviour:
   databaseLoad:
     dataSetsToLoad:
     - animals
-    - VuforiaMars_VuMark
     dataSetsToActivate:
     - animals
-    - VuforiaMars_VuMark
   videoBackground:
     clippingMode: 0
     numDivisions: 2

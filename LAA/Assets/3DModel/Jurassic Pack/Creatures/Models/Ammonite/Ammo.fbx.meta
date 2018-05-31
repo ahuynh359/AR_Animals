@@ -1,0 +1,665 @@
+fileFormatVersion: 2
+guid: 010ac4bf97f38564e9088e581381967b
+timeCreated: 1504942836
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ammo
+    100004: Ammo
+    100006: ammo_LOD_0
+    100008: body
+    100010: eye left
+    100012: eye right
+    100014: head
+    100016: Jaw0
+    100018: jaw1
+    100020: left center0
+    100022: left center1
+    100024: left center10
+    100026: left center2
+    100028: left center3
+    100030: left center4
+    100032: left center5
+    100034: left center6
+    100036: left center7
+    100038: left center8
+    100040: left center9
+    100042: left down0
+    100044: left down1
+    100046: left down10
+    100048: left down11
+    100050: left down2
+    100052: left down3
+    100054: left down4
+    100056: left down5
+    100058: left down6
+    100060: left down7
+    100062: left down8
+    100064: left down9
+    100066: left sidedown0
+    100068: left sidedown1
+    100070: left sidedown10
+    100072: left sidedown11
+    100074: left sidedown12
+    100076: left sidedown2
+    100078: left sidedown3
+    100080: left sidedown4
+    100082: left sidedown5
+    100084: left sidedown6
+    100086: left sidedown7
+    100088: left sidedown8
+    100090: left sidedown9
+    100092: left sideup0
+    100094: left sideup1
+    100096: left sideup10
+    100098: left sideup11
+    100100: left sideup12
+    100102: left sideup2
+    100104: left sideup3
+    100106: left sideup4
+    100108: left sideup5
+    100110: left sideup6
+    100112: left sideup7
+    100114: left sideup8
+    100116: left sideup9
+    100118: left up0
+    100120: left up1
+    100122: left up10
+    100124: left up2
+    100126: left up3
+    100128: left up4
+    100130: left up5
+    100132: left up6
+    100134: left up7
+    100136: left up8
+    100138: left up9
+    100140: right center0
+    100142: right center1
+    100144: right center10
+    100146: right center2
+    100148: right center3
+    100150: right center4
+    100152: right center5
+    100154: right center6
+    100156: right center7
+    100158: right center8
+    100160: right center9
+    100162: right down0
+    100164: right down1
+    100166: right down10
+    100168: right down11
+    100170: right down2
+    100172: right down3
+    100174: right down4
+    100176: right down5
+    100178: right down6
+    100180: right down7
+    100182: right down8
+    100184: right down9
+    100186: right sidedown0
+    100188: right sidedown1
+    100190: right sidedown10
+    100192: right sidedown11
+    100194: right sidedown12
+    100196: right sidedown2
+    100198: right sidedown3
+    100200: right sidedown4
+    100202: right sidedown5
+    100204: right sidedown6
+    100206: right sidedown7
+    100208: right sidedown8
+    100210: right sidedown9
+    100212: right sideup0
+    100214: right sideup1
+    100216: right sideup10
+    100218: right sideup11
+    100220: right sideup12
+    100222: right sideup2
+    100224: right sideup3
+    100226: right sideup4
+    100228: right sideup5
+    100230: right sideup6
+    100232: right sideup7
+    100234: right sideup8
+    100236: right sideup9
+    100238: right up0
+    100240: right up1
+    100242: right up10
+    100244: right up2
+    100246: right up3
+    100248: right up4
+    100250: right up5
+    100252: right up6
+    100254: right up7
+    100256: right up8
+    100258: right up9
+    100260: root
+    100262: tentacles
+    100264: ammo_LOD_1
+    100266: ammo_LOD_2
+    400000: //RootNode
+    400002: ammo
+    400004: Ammo
+    400006: ammo_LOD_0
+    400008: body
+    400010: eye left
+    400012: eye right
+    400014: head
+    400016: Jaw0
+    400018: jaw1
+    400020: left center0
+    400022: left center1
+    400024: left center10
+    400026: left center2
+    400028: left center3
+    400030: left center4
+    400032: left center5
+    400034: left center6
+    400036: left center7
+    400038: left center8
+    400040: left center9
+    400042: left down0
+    400044: left down1
+    400046: left down10
+    400048: left down11
+    400050: left down2
+    400052: left down3
+    400054: left down4
+    400056: left down5
+    400058: left down6
+    400060: left down7
+    400062: left down8
+    400064: left down9
+    400066: left sidedown0
+    400068: left sidedown1
+    400070: left sidedown10
+    400072: left sidedown11
+    400074: left sidedown12
+    400076: left sidedown2
+    400078: left sidedown3
+    400080: left sidedown4
+    400082: left sidedown5
+    400084: left sidedown6
+    400086: left sidedown7
+    400088: left sidedown8
+    400090: left sidedown9
+    400092: left sideup0
+    400094: left sideup1
+    400096: left sideup10
+    400098: left sideup11
+    400100: left sideup12
+    400102: left sideup2
+    400104: left sideup3
+    400106: left sideup4
+    400108: left sideup5
+    400110: left sideup6
+    400112: left sideup7
+    400114: left sideup8
+    400116: left sideup9
+    400118: left up0
+    400120: left up1
+    400122: left up10
+    400124: left up2
+    400126: left up3
+    400128: left up4
+    400130: left up5
+    400132: left up6
+    400134: left up7
+    400136: left up8
+    400138: left up9
+    400140: right center0
+    400142: right center1
+    400144: right center10
+    400146: right center2
+    400148: right center3
+    400150: right center4
+    400152: right center5
+    400154: right center6
+    400156: right center7
+    400158: right center8
+    400160: right center9
+    400162: right down0
+    400164: right down1
+    400166: right down10
+    400168: right down11
+    400170: right down2
+    400172: right down3
+    400174: right down4
+    400176: right down5
+    400178: right down6
+    400180: right down7
+    400182: right down8
+    400184: right down9
+    400186: right sidedown0
+    400188: right sidedown1
+    400190: right sidedown10
+    400192: right sidedown11
+    400194: right sidedown12
+    400196: right sidedown2
+    400198: right sidedown3
+    400200: right sidedown4
+    400202: right sidedown5
+    400204: right sidedown6
+    400206: right sidedown7
+    400208: right sidedown8
+    400210: right sidedown9
+    400212: right sideup0
+    400214: right sideup1
+    400216: right sideup10
+    400218: right sideup11
+    400220: right sideup12
+    400222: right sideup2
+    400224: right sideup3
+    400226: right sideup4
+    400228: right sideup5
+    400230: right sideup6
+    400232: right sideup7
+    400234: right sideup8
+    400236: right sideup9
+    400238: right up0
+    400240: right up1
+    400242: right up10
+    400244: right up2
+    400246: right up3
+    400248: right up4
+    400250: right up5
+    400252: right up6
+    400254: right up7
+    400256: right up8
+    400258: right up9
+    400260: root
+    400262: tentacles
+    400264: ammo_LOD_1
+    400266: ammo_LOD_2
+    2300000: ammo
+    2300002: ammo_LOD_0
+    3300000: ammo
+    3300002: ammo_LOD_0
+    4300000: ammo
+    4300002: ammo_LOD_0
+    4300004: ammo_LOD_2
+    4300006: ammo_LOD_1
+    7400000: Ammo|Ammo
+    7400002: Ammo|AtkA
+    7400004: Ammo|GroundIdle
+    7400006: Ammo|GroundWalk
+    7400008: Ammo|IdleA
+    7400010: Ammo|IdleB
+    7400012: Ammo|Swim
+    7400014: Ammo|SwimFast
+    7400016: Ammo|ToGround
+    7400018: Ammo|ToHide
+    7400020: Ammo|Atk
+    7400022: Ammo|Die1
+    7400024: Ammo|Die2
+    7400026: Ammo|Fall
+    7400028: Ammo|Die
+    7400030: Ammo|DieGround
+    7400032: Ammo|OnGround
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: ammo_LOD_0
+    13700002: ammo_LOD_1
+    13700004: ammo_LOD_2
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Ammo|Ammo
+      takeName: Ammo|Ammo
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ammo|Atk
+      takeName: Ammo|Atk
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ammo|Die
+      takeName: Ammo|Die
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ammo|DieGround
+      takeName: Ammo|DieGround
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ammo|IdleA
+      takeName: Ammo|IdleA
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ammo|IdleB
+      takeName: Ammo|IdleB
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ammo|OnGround
+      takeName: Ammo|OnGround
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ammo|Swim
+      takeName: Ammo|Swim
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ammo|SwimFast
+      takeName: Ammo|SwimFast
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ammo|ToHide
+      takeName: Ammo|ToHide
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 0
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

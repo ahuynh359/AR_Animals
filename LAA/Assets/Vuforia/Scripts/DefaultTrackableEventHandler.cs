@@ -7,6 +7,7 @@ Confidential and Proprietary - Protected under copyright and other laws.
 ==============================================================================*/
 
 using UnityEngine;
+using UnityEngine.UI;
 using Vuforia;
 
 /// <summary>
@@ -14,6 +15,24 @@ using Vuforia;
 /// </summary>
 public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandler
 {
+
+
+    public GameObject mainPanel;
+    public GameObject infoPanel;
+    public Button openButton;
+    public Button closeButton;
+
+
+    private AudioSource[] audios;
+
+    private void _stopAllSounds()
+    {
+        audios = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+        foreach (AudioSource au  in audios)
+        {
+            au.Stop();
+        }
+    }
     #region PRIVATE_MEMBER_VARIABLES
 
     protected TrackableBehaviour mTrackableBehaviour;
@@ -84,6 +103,11 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Enable canvas':
         foreach (var component in canvasComponents)
             component.enabled = true;
+
+        mainPanel.SetActive(true);
+        infoPanel.SetActive(true);
+        openButton.gameObject.SetActive(false);
+        closeButton.gameObject.SetActive(true);
     }
 
 
@@ -104,6 +128,12 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Disable canvas':
         foreach (var component in canvasComponents)
             component.enabled = false;
+
+
+        mainPanel.SetActive(false);
+        infoPanel.SetActive(false);
+        openButton.gameObject.SetActive(false);
+        _stopAllSounds();
     }
 
     #endregion // PRIVATE_METHODS

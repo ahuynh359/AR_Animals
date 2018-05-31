@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1317355801256632}
+  m_IsPrefabParent: 1
+--- !u!1 &1317355801256632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4316007581235832}
+  - component: {fileID: 65002590677987366}
+  - component: {fileID: 33916502690847426}
+  - component: {fileID: 23062076153768052}
+  - component: {fileID: 114451585801828494}
+  m_Layer: 4
+  m_Name: water
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4316007581235832
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1317355801256632}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23062076153768052
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1317355801256632}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a5f2339f242f6cc41a982ec55ea3c201, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 0
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33916502690847426
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1317355801256632}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65002590677987366
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1317355801256632}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 110, z: 2}
+  m_Center: {x: 0, y: -55, z: 0}
+--- !u!114 &114451585801828494
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1317355801256632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1da353243062479a9b31c85074a796b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaterMaterial: {fileID: 2100000, guid: a5f2339f242f6cc41a982ec55ea3c201, type: 2}
+  WaterQuality: 2
+  EdgeBlend: 1
+  GerstnerDisplace: 0
+  DisablePixelLights: 1
+  ReflectionSize: 256
+  ClipPlaneOffset: 0.07
+  ReflectLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  DirectionalLight: {fileID: 0}
+  UnderwaterEffect: 1
+  ScreenOverlayFX: 1
+  Underwater: {fileID: 8300000, guid: ed772bbf59061e546a63b5d273808e8b, type: 3}
+  LightCookie:
+  - {fileID: 2800000, guid: 698791ff31a7dc046afa58d4a471a055, type: 3}
+  - {fileID: 2800000, guid: c43100bc8fc463c46bc9becffbce44b5, type: 3}
+  - {fileID: 2800000, guid: bbda91be4807f444ab799810d9e0ef94, type: 3}
+  - {fileID: 2800000, guid: 24e197cf198fcf248a98ed8d8430a440, type: 3}
+  - {fileID: 2800000, guid: b045ae865c180744580a6f4cc298fa8b, type: 3}
+  - {fileID: 2800000, guid: be0cd4b7310b59a469521c382cabc7e9, type: 3}
+  - {fileID: 2800000, guid: 40330ae28a59ab64291ddfce896d43c3, type: 3}
+  - {fileID: 2800000, guid: 64d1c0fae653b0d42a7f32694af176a3, type: 3}
+  - {fileID: 2800000, guid: f3bb0bebc69b3b0438ce22396322ada4, type: 3}
+  - {fileID: 2800000, guid: 6dc36b9c86468564489b2c31b96402ea, type: 3}
+  - {fileID: 2800000, guid: 2e3949ac5b2217742bd494e7f1b8b69c, type: 3}
+  - {fileID: 2800000, guid: 5d62d621de4e9424c9a0d6f174204fde, type: 3}
+  - {fileID: 2800000, guid: 0c1e8a9ba7b747f41944d2e0fbfa7144, type: 3}
+  - {fileID: 2800000, guid: fcdcf7c4a9667584ea483702d20588d7, type: 3}
+  - {fileID: 2800000, guid: 8debff8eb492ff342976b30ebae41693, type: 3}
+  - {fileID: 2800000, guid: b8bd331bd6763ae4da48e376f235155f, type: 3}
+  - {fileID: 2800000, guid: ea1538b527f6e5d4c94325f0fb61584d, type: 3}
+  - {fileID: 2800000, guid: fb4588d9d8a87a64eb72dab4d1195129, type: 3}
+  - {fileID: 2800000, guid: f4df4a5b757d8d1439b176db39f62326, type: 3}
+  - {fileID: 2800000, guid: 05ff5046448e89c48a8210a9aa149929, type: 3}
+  - {fileID: 2800000, guid: 8c51bd67904a01847a95eee5242d2866, type: 3}
+  - {fileID: 2800000, guid: bac23ac4ac5536f4fba9f3e46ed96ec8, type: 3}
+  - {fileID: 2800000, guid: 91390ed9da1b4fe44b60f408e1f81b7c, type: 3}
+  - {fileID: 2800000, guid: af2baf3da29c7414c927c19c08ef4784, type: 3}
+  - {fileID: 2800000, guid: 6c5d34aaaf369e540a4b7cf0dcf693a2, type: 3}
+  - {fileID: 2800000, guid: a181408cd19c92848b4bec3943f4ef7c, type: 3}
+  - {fileID: 2800000, guid: 93b8c941e7ae8834daa8a56d9e9402f8, type: 3}
+  - {fileID: 2800000, guid: 4eaaae347819876439f03e4b9599cb9d, type: 3}
+  - {fileID: 2800000, guid: 2c71b2f2e85cb6649bd2e98796c3cbcd, type: 3}
+  - {fileID: 2800000, guid: d473ceccd4563064d9f8fd155376cee7, type: 3}
+  - {fileID: 2800000, guid: 78f0e91407ece104e8e60b475b2c2024, type: 3}
+  - {fileID: 2800000, guid: 574a4d3bd9c170840ae21c320fdaf408, type: 3}
+  - {fileID: 2800000, guid: 777e99ea4a582524680b6a6bde0fa2a9, type: 3}
+  - {fileID: 2800000, guid: 33580ea108964cb499ba74906fe25a8b, type: 3}
+  - {fileID: 2800000, guid: cf3108389617b324da45267bd1154c89, type: 3}
+  - {fileID: 2800000, guid: dcdc084c96a967948a3ee2bf5c6b6da5, type: 3}
+  - {fileID: 2800000, guid: f503d276ddd8d7d42b84a92486f1d875, type: 3}
+  - {fileID: 2800000, guid: dcb913f2b98438447825cbbd944843ce, type: 3}
+  - {fileID: 2800000, guid: 1f82e735626056841b5c604e240f5d6e, type: 3}
+  - {fileID: 2800000, guid: 11609c44e948cb5428c93cd2a91c67ef, type: 3}
+  - {fileID: 2800000, guid: cfaf18438dfcfae499fd2a3175e06e09, type: 3}
+  - {fileID: 2800000, guid: d32b51c57e8a4c145b6995fbd691e988, type: 3}
+  - {fileID: 2800000, guid: b08ffec932cc52544980592a13ece23d, type: 3}
+  - {fileID: 2800000, guid: d108710fdcb22924bbcf5be1cdbdbb54, type: 3}
+  - {fileID: 2800000, guid: 5c750672726135d41b1a849f97f96ac1, type: 3}
+  - {fileID: 2800000, guid: c90b4a9796c456f4d9e10e78bfa94769, type: 3}
+  - {fileID: 2800000, guid: c19ed8d2d5b3785498cf828bb930dd2a, type: 3}
+  - {fileID: 2800000, guid: 204c699f067e9f24694ef4341b9b8e2c, type: 3}
+  - {fileID: 2800000, guid: 6ecfefec9cb13374aaa47a3d0040bbbd, type: 3}
+  - {fileID: 2800000, guid: cc5daa708370251438c47fbaad21cb8f, type: 3}
+  - {fileID: 2800000, guid: 8c5d4bf2cf2e2894a844701e2f10fdfe, type: 3}
+  - {fileID: 2800000, guid: 422c9ba7b467fb74ea4511603f1172f2, type: 3}
+  - {fileID: 2800000, guid: 0ebf1d06da9532c4db7ab9238f1b35eb, type: 3}
+  - {fileID: 2800000, guid: fefa1eb4d5b417c4ca961b971c8b21ce, type: 3}
+  - {fileID: 2800000, guid: b02160c63023cb545a9e8ad4301fcc99, type: 3}
+  - {fileID: 2800000, guid: f38a335178ad5194eae2be864af78d82, type: 3}
+  - {fileID: 2800000, guid: 6feb3d3fcc6d2954c808a7f3eef5f059, type: 3}
+  - {fileID: 2800000, guid: 7bf3bc8d204e33c4b8586e6541949c38, type: 3}
+  - {fileID: 2800000, guid: d9c6817cb0310bf42ba17eb94154e6d6, type: 3}
+  UnderwaterFogStart: 0
+  UnderwaterFogEnd: 100
+  ParticlesEffect: 1
+  ripples: {fileID: 198568203811761954, guid: 9a6e4420b16603e42b3737b45d4b3536, type: 2}
+  splash: {fileID: 19842344, guid: 3ef9055c491d22543a93c7f83f19f814, type: 2}
+  Largesplash: {fileID: 8300000, guid: aa9fe390bef187246997f611b9b4cebf, type: 3}
