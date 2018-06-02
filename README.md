@@ -1,7 +1,5 @@
-# LearnAboutAnimals
-App giúp cho trẻ em có thể học hỏi phát triển tư duy qua những con vật 3D
 
-# Hướng dẫn tải
+### Hướng dẫn tải
 1) Bấm vào nút clone or download (màu xanh phía bên phải) -> Download ZIP -> Giải nén 
 2) Để mở ứng dụng tải về phiên bản Unity 2017.3.1f bằng đường link https://unity3d.com/fr/get-unity/download/archive
 3) Kéo xuống chọn chọn phiên bản cần tải ->
@@ -23,13 +21,21 @@ App giúp cho trẻ em có thể học hỏi phát triển tư duy qua những c
 	
 # Hướng dẫn cài dặt App trên điện thoại Android
 
-1) Đi đến thư mục LearnAboutAnimals/LAA/Tư duy động vật cho trẻ em.APK
-2) Tiến hành đưa app Tư duy động vật cho trẻ em.APK vào điện thoại
+1) 	.)Tại giao diện Unity nhấn tổ hợp phím Ctrl+Shift+B Nhấn Build -> Thư mục lưu (Xong)
+
+	![untitled](https://user-images.githubusercontent.com/32415728/40873652-d125b31c-668e-11e8-8a85-39f47a174af5.png)
+
+
+	.)Hoặc có thể tải app theo đường link tác giả cung cấp https://drive.google.com/drive/folders/1rrBkD_FGO0kH1vO-7pKLzTyidCBVmjFm
+
+2) Tiến hành đưa app Tư duy động vật cho trẻ em.APK vào điện thoại (qua Gmail hoặc qua cổng USB) yêu cầu điện thoại phiên bản Android 4.1 trở lên và Ram tối thiểu 2GB 
+
 3) Vào cài đặt trong điện thoại chọn Bảo mật -> Cho phép nguồn không xác định
+
 4) Mở app lên và cài đặt
 
 	![screenshot_2018-05-31-12-09-00-566_com google android packageinstaller](https://user-images.githubusercontent.com/32415728/40850810-cb66f912-65ef-11e8-8152-ce237be05e22.png)
 
 
-![screenshot_2018-05-31-12-09-19-558_com google android packageinstaller](https://user-images.githubusercontent.com/32415728/40850846-e32d0c58-65ef-11e8-8cec-33741fad0447.png)
+	![screenshot_2018-05-31-12-09-19-558_com google android packageinstaller](https://user-images.githubusercontent.com/32415728/40850846-e32d0c58-65ef-11e8-8cec-33741fad0447.png)
 
