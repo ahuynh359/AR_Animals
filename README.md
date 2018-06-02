@@ -9,7 +9,11 @@ App giúp cho trẻ em có thể học hỏi phát triển tư duy qua những c
 
 	![untitled](https://user-images.githubusercontent.com/32415728/40850228-4ec1aef8-65ee-11e8-9fc3-88925e9608bf.png)
 
-4) Tiến hành tải và cài đặt
+4) Tiến hành tải và cài đặt 
+	(Chú ý trong quá trình cài đặt nhớ đánh dấu tick vào Android Build Support và Vuforia Augmented Reality Support
+	
+	![untitled](https://user-images.githubusercontent.com/32415728/40873414-c897285c-6689-11e8-9a87-45766b857b3d.png)
+	
 5) Mở Unity -> Chọn Open 
 		
 	![untitled](https://user-images.githubusercontent.com/32415728/40850455-d80630f8-65ee-11e8-99a5-c559f81b904a.png)
