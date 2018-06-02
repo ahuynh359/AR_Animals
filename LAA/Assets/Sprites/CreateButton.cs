@@ -9,10 +9,11 @@ public class CreateButton : MonoBehaviour
 
     public Transform panel;
     public Button button;
+    public int totalButton;
 
      void Awake()
     {
-        for(int i = 0; i < 12; i++)
+        for(int i = 0; i < totalButton; i++)
         {
             Button nButton = Instantiate(button);
             nButton.name = i.ToString();

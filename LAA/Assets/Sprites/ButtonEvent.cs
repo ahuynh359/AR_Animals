@@ -12,10 +12,6 @@ public class ButtonEvent : MonoBehaviour
 
 
 
-    public void _LoadScene0()
-    {
-        StartCoroutine(_LoadScene(0));
-    }
 
     public void _LoadScene1()
     {
@@ -32,11 +28,12 @@ public class ButtonEvent : MonoBehaviour
     {
         StartCoroutine(_LoadScene(3));
     }
-
-    public void _CloseButton()
+    public void _LoadScene4()
     {
-        Application.Quit();
+        StartCoroutine(_LoadScene(4));
     }
+
+    
 
     public void _URLButton()
     {

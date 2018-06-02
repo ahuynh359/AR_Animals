@@ -4111,7 +4111,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 700459937}
-        m_MethodName: _LoadScene2
+        m_MethodName: _LoadScene3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4661,7 +4661,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 700459937}
-        m_MethodName: _LoadScene0
+        m_MethodName: _LoadScene1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
