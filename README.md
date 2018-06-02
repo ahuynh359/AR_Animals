@@ -23,7 +23,6 @@
 
 1) 	.)Tại giao diện Unity nhấn tổ hợp phím Ctrl+Shift+B Nhấn Build -> Thư mục lưu (Xong)
 
-
 	![untitled](https://user-images.githubusercontent.com/32415728/40873652-d125b31c-668e-11e8-8a85-39f47a174af5.png)
 
 
