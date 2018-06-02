@@ -23,10 +23,13 @@ App giúp cho trẻ em có thể học hỏi phát triển tư duy qua những c
 	
 # Hướng dẫn cài dặt App trên điện thoại Android
 
-1) Tại giao diện Unity nhấn tổ hợp phím Ctrl+Shift+B Nhấn Build -> Thư mục lưu (Xong)
+1) 	.)Tại giao diện Unity nhấn tổ hợp phím Ctrl+Shift+B Nhấn Build -> Thư mục lưu (Xong)
+
 
 	![untitled](https://user-images.githubusercontent.com/32415728/40873652-d125b31c-668e-11e8-8a85-39f47a174af5.png)
 
+
+	.)Hoặc có thể tải app theo đường link tác giả cung cấp https://drive.google.com/drive/folders/1rrBkD_FGO0kH1vO-7pKLzTyidCBVmjFm
 
 2) Tiến hành đưa app Tư duy động vật cho trẻ em.APK vào điện thoại (qua Gmail hoặc qua cổng USB) yêu cầu điện thoại phiên bản Android 4.1 trở lên và Ram tối thiểu 2GB 
 
