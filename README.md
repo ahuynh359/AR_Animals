@@ -23,13 +23,19 @@ App giúp cho trẻ em có thể học hỏi phát triển tư duy qua những c
 	
 # Hướng dẫn cài dặt App trên điện thoại Android
 
-1) Đi đến thư mục LearnAboutAnimals/LAA/Tư duy động vật cho trẻ em.APK
-2) Tiến hành đưa app Tư duy động vật cho trẻ em.APK vào điện thoại
+1) Tại giao diện Unity nhấn tổ hợp phím Ctrl+Shift+B Nhấn Build -> Thư mục lưu (Xong)
+
+	![untitled](https://user-images.githubusercontent.com/32415728/40873652-d125b31c-668e-11e8-8a85-39f47a174af5.png)
+
+
+2) Tiến hành đưa app Tư duy động vật cho trẻ em.APK vào điện thoại (qua Gmail)
+
 3) Vào cài đặt trong điện thoại chọn Bảo mật -> Cho phép nguồn không xác định
+
 4) Mở app lên và cài đặt
 
 	![screenshot_2018-05-31-12-09-00-566_com google android packageinstaller](https://user-images.githubusercontent.com/32415728/40850810-cb66f912-65ef-11e8-8152-ce237be05e22.png)
 
 
-![screenshot_2018-05-31-12-09-19-558_com google android packageinstaller](https://user-images.githubusercontent.com/32415728/40850846-e32d0c58-65ef-11e8-8cec-33741fad0447.png)
+	![screenshot_2018-05-31-12-09-19-558_com google android packageinstaller](https://user-images.githubusercontent.com/32415728/40850846-e32d0c58-65ef-11e8-8cec-33741fad0447.png)
 
