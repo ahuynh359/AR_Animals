@@ -28,7 +28,7 @@ App giúp cho trẻ em có thể học hỏi phát triển tư duy qua những c
 	![untitled](https://user-images.githubusercontent.com/32415728/40873652-d125b31c-668e-11e8-8a85-39f47a174af5.png)
 
 
-2) Tiến hành đưa app Tư duy động vật cho trẻ em.APK vào điện thoại (qua Gmail)
+2) Tiến hành đưa app Tư duy động vật cho trẻ em.APK vào điện thoại (qua Gmail hoặc qua cổng USB) yêu cầu điện thoại phiên bản Android 4.1 trở lên và Ram tối thiểu 2GB 
 
 3) Vào cài đặt trong điện thoại chọn Bảo mật -> Cho phép nguồn không xác định
 
