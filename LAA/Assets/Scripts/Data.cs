@@ -21,7 +21,7 @@ public class Data : MonoBehaviour
     private AudioSource audios;
     private AudioClip clips;
     public static Data instance;
-    private String nameTrack;
+    private static String nameTrack;
 
     private List<string> names = new List<string> {"Con Bướm","Con Cá Voi","Con mèo","Con chim cánh cụt",
         "Con Voi", "Con Chim", "Con Nhện","Con Cá Mồi","Con ngựa", "Con Hổ","Con Tê Giác","Ốc Anh Vũ","Kì Nhông","Khỉ Đột","Khủng Long" };

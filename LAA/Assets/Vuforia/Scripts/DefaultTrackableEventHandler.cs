@@ -17,10 +17,10 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 {
 
 
-    public GameObject mainPanel;
-    public GameObject infoPanel;
-    public Button openButton;
-    public Button closeButton;
+    public  GameObject mainPanel;
+    public  GameObject infoPanel;
+    public  Button openButton;
+    public  Button closeButton;
 
 
     private AudioSource[] audios;
