@@ -1,7 +1,8 @@
 
-### Hướng dẫn tải
-1) Bấm vào nút clone or download (màu xanh phía bên phải) -> Download ZIP -> Giải nén 
-2) Để mở ứng dụng tải về phiên bản Unity 2017.3.1f bằng đường link https://unity3d.com/fr/get-unity/download/archive
+### Hướng dẫn tải phần mềm Unity
+
+1) Để mở ứng dụng tải về phiên bản Unity 2017.3.1f bằng đường link https://unity3d.com/fr/get-unity/download/archive
+2) Bấm vào nút clone or download (màu xanh phía bên phải) -> Download ZIP -> Giải nén
 3) Kéo xuống chọn chọn phiên bản cần tải ->
 
 
@@ -38,4 +39,7 @@
 
 
 	![screenshot_2018-05-31-12-09-19-558_com google android packageinstaller](https://user-images.githubusercontent.com/32415728/40850846-e32d0c58-65ef-11e8-8cec-33741fad0447.png)
+	
+## Hướng dẫn xem mã nguồn
+Có thể tải về tại đây
 
