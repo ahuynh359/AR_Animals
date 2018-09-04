@@ -1,38 +1,31 @@
 
-### Hướng dẫn tải phần mềm Unity
+### Version using Unity 2017.3.1f
 
-1) Để mở ứng dụng tải về phiên bản Unity 2017.3.1f bằng đường link https://unity3d.com/fr/get-unity/download/archive
-2) Bấm vào nút clone or download (màu xanh phía bên phải) -> Download ZIP -> Giải nén
-3) Kéo xuống chọn chọn phiên bản cần tải ->
+![maxresdefault](https://user-images.githubusercontent.com/32415728/45041102-b4828800-b091-11e8-96a9-894dbefad8ae.jpg)
 
+### 1. Supporting only Vietnamese in the app
 
-	![untitled](https://user-images.githubusercontent.com/32415728/40850228-4ec1aef8-65ee-11e8-9fc3-88925e9608bf.png)
+### 2. Images in app
 
-4) Tiến hành tải và cài đặt 
-	(Chú ý trong quá trình cài đặt nhớ đánh dấu tick vào Android Build Support và Vuforia Augmented Reality Support
-	
-	![untitled](https://user-images.githubusercontent.com/32415728/40873414-c897285c-6689-11e8-9a87-45766b857b3d.png)
-	
-5) Mở Unity -> Chọn Open 
-		
-	![untitled](https://user-images.githubusercontent.com/32415728/40850455-d80630f8-65ee-11e8-99a5-c559f81b904a.png)
-6) Đi đến thư mục LearnAboutAnimals/LAA  -> chọn Select Folder
-	
-	![untitled](https://user-images.githubusercontent.com/32415728/40850568-29302eac-65ef-11e8-99a3-397eff95e87a.png)
-	
-# Hướng dẫn cài dặt App trên điện thoại Android
+![40771178_290950071501811_4407585603403644928_n](https://user-images.githubusercontent.com/32415728/45043074-6fad2000-b096-11e8-8a45-6c350f249071.png)
 
-1) 	Tải app theo đường link tác giả cung cấp https://drive.google.com/drive/folders/1rrBkD_FGO0kH1vO-7pKLzTyidCBVmjFm
+![40818556_2167093520284495_4110899665006755840_n](https://user-images.githubusercontent.com/32415728/45043077-70de4d00-b096-11e8-85c8-9c9999efcf01.png)
 
-2) Tiến hành đưa app Tư duy động vật cho trẻ em.APK vào điện thoại (qua Gmail hoặc qua cổng USB) yêu cầu điện thoại phiên bản Android 4.1 trở lên và Ram tối thiểu 2GB 
+![40684592_595386677561121_1179419030461612032_n](https://user-images.githubusercontent.com/32415728/45042696-80a96180-b095-11e8-96bd-8dbbc19d1e5d.png)
 
-3) Vào cài đặt trong điện thoại chọn Bảo mật -> Cho phép nguồn không xác định
+![40844973_534671850305131_2510942407860682752_n](https://user-images.githubusercontent.com/32415728/45042733-9454c800-b095-11e8-9842-3cddd4bcdd69.png)
 
-4) Mở app lên và cài đặt
+![40684028_248828869109747_7613286967651860480_n](https://user-images.githubusercontent.com/32415728/45043214-bf8be700-b096-11e8-9b19-ff28485d5e59.png)
 
-	![screenshot_2018-05-31-12-09-00-566_com google android packageinstaller](https://user-images.githubusercontent.com/32415728/40850810-cb66f912-65ef-11e8-8152-ce237be05e22.png)
+![40684464_915910485271181_5242243447192027136_n](https://user-images.githubusercontent.com/32415728/45043073-6f148980-b096-11e8-8b42-c98fc5b3521e.png)
+
+### 3. Main functions
+* Show the animal when the target is found (the card) that I've been supported in the app with link in Google Drive
+* Play sound of animals
+* Play name of animals
+* Play video for each of animal
+* Support a little game 
+* Show information of animals
 
 
-	![screenshot_2018-05-31-12-09-19-558_com google android packageinstaller](https://user-images.githubusercontent.com/32415728/40850846-e32d0c58-65ef-11e8-8cec-33741fad0447.png)
-	
 
