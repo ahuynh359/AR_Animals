@@ -1,11 +1,10 @@
 
-### Version using Unity 2017.3.1f
+### Phiên bản IDE Unity 2017.3.1f
 
 ![maxresdefault](https://user-images.githubusercontent.com/32415728/45041102-b4828800-b091-11e8-96a9-894dbefad8ae.jpg)
 
-### 1. Supporting only Vietnamese in the app
 
-### 2. Images in app
+### 2. Một Số Hình Ảnh Trong Ứng Dụng
 
 ![40771178_290950071501811_4407585603403644928_n](https://user-images.githubusercontent.com/32415728/45043074-6fad2000-b096-11e8-8a45-6c350f249071.png)
 
@@ -19,13 +18,13 @@
 
 ![40684464_915910485271181_5242243447192027136_n](https://user-images.githubusercontent.com/32415728/45043073-6f148980-b096-11e8-8b42-c98fc5b3521e.png)
 
-### 3. Main functions
-* Show the animal when the target is found (the card) that I've been supported in the app with link in Google Drive
-* Play sound of animals
-* Play name of animals
-* Play video for each of animal
-* Support a little game 
-* Show information of animals
+### 3. Các chức năng chính
+* Hiện thị hình ảnh 3d của con vật khi camera trong ứng dụng nhận diện được hình lá thẻ hình ảnh con vật 2D
+* Phát âm thanh của con vật
+* Phát âm tên của con vật
+* Phát video về đời sống con vật
+* Hỗ trợ Game về tìm hình ảnh con vật giống nhau( hỗ trợ trí nhớ về con vật)
+* Hiển thị thông tin về con vật
 
 
 
