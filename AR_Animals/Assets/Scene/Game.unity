@@ -362,7 +362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonList: []
-  bgImage: {fileID: 21300000, guid: 88142dbd0fa578041a118315282c96a2, type: 3}
+  bgImage: {fileID: 21300000, guid: a332ec853281de94081af99f36dd7559, type: 3}
   win: {fileID: 713700579}
   sprites: []
   playAgian: {fileID: 1879048233}
