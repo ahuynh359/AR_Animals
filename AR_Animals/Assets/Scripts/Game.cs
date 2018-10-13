@@ -98,6 +98,9 @@ public class Game : MonoBehaviour
         int count = buttonList.Count;
         int j = 0;
 
+        System.Random random = new System.Random();
+        j = random.Next(0, 41);
+
         for (int i = 0; i < count; i++)
         {
             if (j == count / 2) j = 0;
@@ -171,7 +174,7 @@ public class Game : MonoBehaviour
 
     IEnumerator _Load()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.25f);
         SceneManager.LoadScene(4);
     }
 }
