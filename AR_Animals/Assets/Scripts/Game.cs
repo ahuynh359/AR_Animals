@@ -1,10 +1,12 @@
-﻿using System;
+﻿
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+
+
 public class Game : MonoBehaviour
 {
     public List<Button> buttonList = new List<Button>();
@@ -25,6 +27,8 @@ public class Game : MonoBehaviour
 
     private string fristGuessPuzzle, secondGuessPuzzle;
 
+    private int randomNumber;
+
 
     void Awake()
     {
@@ -37,10 +41,12 @@ public class Game : MonoBehaviour
         _ClickButton();
 
         AddButton();
-        _Random(spriteList);
-        gameGuesseses = spriteList.Count / 2;
+       
+        gameGuesseses = buttonList.Count / 2;
+        ShufferPosition(spriteList);
+      
     }
-    
+
 
     // Update is called once per frame
     void Update()
@@ -48,6 +54,8 @@ public class Game : MonoBehaviour
 
     }
 
+
+    //Lay Button va gan background cho no
     private void _GetButtons()
     {
         GameObject[] buttons = GameObject.FindGameObjectsWithTag("Button");
@@ -91,20 +99,20 @@ public class Game : MonoBehaviour
         }
     }
 
-   
 
+    //Gan hinh cho button
     public void AddButton()
     {
         int count = buttonList.Count;
         int j = 0;
+        int random = Random.Range(0, 41);
 
-        System.Random random = new System.Random();
-        j = random.Next(0, 41);
 
         for (int i = 0; i < count; i++)
         {
-            if (j == count / 2) j = 0;
-            spriteList.Add(sprites[j]);
+
+            if (i == count / 2) j = 0;
+            spriteList.Add(sprites[j+random]);
             j++;
         }
 
@@ -126,7 +134,8 @@ public class Game : MonoBehaviour
             buttonList[secondsGuessIndex].image.color = new Color(0, 0, 0, 0);
 
             _GameIsFinished();
-        } else
+        }
+        else
         {
             buttonList[frirstGuessIndex].image.sprite = bgImage;
             buttonList[secondsGuessIndex].image.sprite = bgImage;
@@ -139,37 +148,26 @@ public class Game : MonoBehaviour
     private void _GameIsFinished()
     {
         coutCorrectGuesseses++;
-        if(coutCorrectGuesseses == gameGuesseses)
+        if (coutCorrectGuesseses == gameGuesseses)
         {
-           
+
             win.gameObject.SetActive(true);
             win.text = "Bạn đã thắng";
             playAgian.gameObject.SetActive(true);
-          
-            
+
+
         }
     }
 
-    void _Random(List<Sprite> list)
-    {
-        for(int i = 0; i < list.Count; i++)
-        {
-            Sprite sp = list[i];
-            int ranom = UnityEngine.Random.Range(i, list.Count);
-            list[i] = list[ranom];
-            list[ranom] = sp;
 
-        }
 
-    }
-
-  public  void _PLayAgain()
+    public void _PLayAgain()
     {
         playAgian.gameObject.SetActive(false);
         win.gameObject.SetActive(false);
 
         StartCoroutine(_Load());
-      
+
     }
 
     IEnumerator _Load()
@@ -177,4 +175,23 @@ public class Game : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         SceneManager.LoadScene(4);
     }
+
+
+    void ShufferPosition(List<Sprite> sprites)
+    {
+
+        Sprite name;
+        for (int i = 0; i < sprites.Count; i++)
+        {
+            name = sprites[i];
+            int random = Random.Range(i, sprites.Count);
+            sprites[i] = sprites[random];
+            sprites[random] = name;
+        }
+    }
+
+
+
+    
+    
 }
