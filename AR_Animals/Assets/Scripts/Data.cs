@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using System.Collections;
 using System.Collections.Generic;
 using Vuforia;
 using System;
@@ -27,21 +26,21 @@ public class Data : MonoBehaviour
         "Con Voi", "Con Chim", "Con Nhện","Con Cá Mồi","Con ngựa", "Con Hổ","Con Tê Giác","Ốc Anh Vũ","Kì Nhông","Khỉ Đột","Khủng Long" };
 
     private List<string> infos = new List<string> {
-"Bướm là các loài côn trùng nhỏ, biết bay, hoạt động vào ban ngày thuộc bộ Cánh vẩy ,có nhiều loại, ít màu cũng có mà sặc sỡ nhiều màu sắc cũng có. Thường chúng sống gần các bụi cây nhiều hoa để hút phấn hoa, mật hoa, góp phần trong việc giúp hoa thụ phấn.",
-"Cá voi là các loài thú chủ yếu đã thích nghi đầy đủ với cuộc sống dưới nước. Cơ thể của chúng có dạng tựa hình thoi . Các chi trước bị biến đổi thành chân chèo. Các chi sau nhỏ là cơ quan vết tích, chúng không gắn vào xương sống và bị ẩn trong cơ thể. Đuôi có các thùy đuôi nằm ngang.",
-"Mèo là những con vật có kỹ năng của thú săn mồi và được biết đến với khả năng săn bắt hàng nghìn loại sinh vật để làm thức ăn. Chúng đồng thời là những sinh vật thông minh, và có thể được dạy hay tự học cách sử dụng các công cụ đơn giản như mở tay nắm cửa hay giật nước trong nhà vệ sinh.",
-"Chim cánh cụt là một bộ chim không cánh sinh sống dưới nước là chủ yếu tại khu vực Nam bán cầu, Châu Nam Cực chỉ toàn băng tuyết, với nhiệt độ trung bình hàng năm thấp nhất trong các châu lục trên Trái Đất. Tuy nhiên chim cánh cụt vẫn sống và có tới hàng chục loài khác nhau.",
-"Voi là động vật có vú lớn nhất còn sinh sống trên mặt đất ngày nay. Các loài voi nhỏ nhất, với kích thước chỉ cỡ con bê hay con lợn lớn, là các loài voi tiền sử đã sinh sống trên đảo Crete cho tới khoảng năm 5000 TCN, và có thể là tới những năm khoảng 3000 TCN.",
-"Các loài chim hiện đại mang các đặc điểm tiêu biểu như: có lông vũ, có mỏ và không răng, đẻ trứng có vỏ cứng, chỉ số trao đổi chất cao, tim có bốn ngăn, cùng với một bộ xương nhẹ nhưng chắc. Tất cả các loài chim đều có chi trước đã biển đổi thành cánh và hầu hết có thể bay.",
-"Nhện là một bộ động vật săn mồi, không xương sống thuộc lớp hình nhện, cơ thể chỉ có hai phần, tám chân, miệng không hàm nhai, không cánh. Màng nhện được dùng làm nhiều việc như tạo dây để leo trèo trên vách, làm tổ trong hốc đá, tạo nơi giữ và gói mồi, giữ trứng và giữ tinh trùng.",
-"Cá mồi là loại cá lớn thuộc họ Cá bạc má ,chủ yếu thuộc chi Thunnus, sinh sống ở vùng biển ấm, cách bờ độ 185 km trở ra. Ở Việt Nam, Cá ngừ đại dương là tên địa phương để chỉ loại cá ngừ mắt to và cá ngừ vây vàng. Cá ngừ đại dương là loại hải sản đặc biệt thơm ngon, mắt rất bổ, được chế biến thành nhiều loại món ăn ngon và tạo nguồn hàng xuất khẩu có giá trị.",
-"Ngựa là một loài động vật có vú . Ngựa đã trải qua quá trình tiến hóa từ 45 đến 55 triệu năm để từ một dạng sinh vật nhỏ với chân nhiều ngón trở thành dạng động vật lớn với chân một ngón như ngày nay. Ngựa có tuổi thọ khoảng 25 đến 30 năm. Ngựa cái mang thai kéo dài khoảng 335-340 ngày. Ngựa thường sinh một.",
-"Phần lớn các loài hổ sống trong rừng và đồng cỏ . Hổ đi săn đơn lẻ, thức ăn của chúng chủ yếu là các động vật ăn cỏ cỡ trung bình như hươu, nai, lợn rừng, trâu, v.v. Tuy nhiên chúng cũng có thể bắt các loại mồi cỡ to hay nhỏ hơn nếu hoàn cảnh cho phép.",
-"Tê giác là các loài động vật nằm trong số 5 chi còn sống sót của động vật guốc lẻ trong họ Rhinocerotidae. Đặc trưng nổi bật của động vật có sừng này là lớp da bảo vệ của chúng được tạo thành từ các lớp chất keo với độ dày tối ưu khoảng 4 inch được sắp xếp theo cấu trúc mắt lưới.",
-"Ốc anh vũ có chiếc vỏ cứng rất đẹp. Thân ốc mềm nằm trong vỏ, đối xứng 2 bên. Từ trung tâm vỏ óc ra đến miệng có những lớp màng ngăn chia vỏ thành hơn 30 buồng khí, cơ thể ốc chỉ chiếm một gian ngoài cùng, các gian còn lại đều bỏ trống. ",
-"Kỳ nhông là loài bò sát, toàn thân phủ một lớp vảy. Chúng có cổ dài, đuôi và bộ chân khỏe, tứ chi phát triển. Hình hình dáng bên ngoài trông giống như con thạch sùng (thằn lằn) nhưng to và dài hơn. Có hai chân trước và hai chân sau, mỗi chân có 5 ngón tòe rộng, mặt dưới ngón có các nút bám để con vật dễ leo trèo.",
-"Khỉ đột là một chi linh trưởng thuộc họ người, động vật ăn cỏ sống trong rừng rậm châu Phi, là giống lớn nhất trong bộ linh trưởng còn tồn tại. Khỉ đột thường sống dưới mặt đất, đi bằng bốn chân và chỉ đi bằng hai chân khi chuẩn bị đánh nhau. ",
-"Khủng long là một nhóm đa dạng từ phân loại, hình thái đến sinh thái. Khủng long có mặt ở khắp các châu lục, qua những loài hiện còn cũng như những hóa thạch còn sót lại. Phần nhiều ăn cỏ, số khác ăn thịt. Tổ tiên của chúng là động vật hai chân. ",
+"Là các loài côn trùng nhỏ, biết bay, hoạt động vào ban ngày chúng sống gần các bụi cây nhiều hoa để hút phấn hoa, mật hoa.",
+"Là một loài cá voi lớn,  thường xuyên nhảy vọt lên khỏi mặt nước. Cá voi lưng gù chỉ ăn ở vùng cực vào mùa hè. Cơ thể của chúng có dạng tựa hình thoi.",
+"Mèo giao tiếp bằng cách kêu meo. Đa số các giống mèo đều thích trèo cao hay ngồi ở các vị trí cao. Mèo được biết đến nhờ sự sạch sẽ của nó khả năng săn bắt hàng nghìn loại sinh vật để làm thức ăn.",
+"Là một bộ chim không cánh sinh sống dưới nước là chủ yếu tại khu vực toàn băng tuyết. Chúng có lông rậm, mỡ dày để chịu rét. ",
+"Voi là loài động vật lớn nhất sinh sống trên mặt đất. Voi có bốn chân lớn để có thể chịu được trọng lượng cơ thể nặng. Ngà voi là do hai răng cửa hàm trên biến thành.",
+"Là các loài động vật có có cánh biết bay, sống khắp toàn cầu. Chim là động vật sống bầy đàn, chúng giao tiếp với nhau thông qua tiếng kêu và tiếng hót.",
+"Nhện là một bộ động vật săn mồi, có khả năng làm màng nhện và tiêm nọc độc khi cắn để tự vệ và để giết mồi. Cơ thể chỉ có hai phần, tám chân, miệng không hàm nhai, không cánh.",
+"Di cư thành từng đàn lớn  để chống lại kẻ thù săn mồi. Ở vùng nước ngọt chúng đẻ trứng nhưng khi trưởng thành chúng lại bơi ra biển và bước vào hành trình sinh sống ở đại dương bao la.",
+"Ngựa là động vật ăn cỏ thường sống thành bầy, có trí nhớ dài hạn vô cùng tuyệt vời. Ngựa thường dùng để cưỡi, kéo xe, thồ hàng, làm ngựa chiến, ngựa đua.",
+"Phần lớn các loài hổ sống trong rừng và đồng cỏ. Thức ăn của chúng chủ yếu là các động vật ăn cỏ cỡ trung bình như hươu, nai, lợn rừng, trâu và thường đi săn đơn lẻ.",
+"Tê giác chỉ ăn cỏ, các loại lá cây, cành và chồi non sống ở vùng đất thấp, vùng đồng cỏ ẩm ướt và các bãi bồi triền sông rộng lớn.",
+"Sống dưới đáy biển sâu vài trăm mét, có chiếc vỏ cứng rất đẹp, bên ngoài có hình lượn sóng xám đỏ xen nhau, bên trong là lớp màu trắng bạc long lanh.",
+"Sống trên đất cát ven biển, rất thích có bóng mát. Nguồn thức ăn chủ yếu là thức ăn thực vật.Trước mùa đông, kỳ nhông thường thu thức ăn về để ở dưới hang.",
+"Động vật ăn cỏ sống trong rừng. Thức ăn chủ yếu của chúng là các loại thực vật như cây mọng nước, chồi non,..Khỉ đột sống theo đàn. Đi bằng bốn chân và chỉ đi bằng hai chân khi chuẩn bị đánh nhau.",
+"Đây là loài khủng long đã tuyệt chủng có 2 chân. Khủng long có mặt ở khắp các châu lục, qua những hóa thạch còn sót lại. Đây là loài khủng long ăn cỏ. ",
  };
 
 

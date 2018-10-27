@@ -1170,7 +1170,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: cee533bdaf5c01a4091b972ae1bbb654, type: 3}
-    m_FontSize: 100
+    m_FontSize: 90
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 5
@@ -1181,7 +1181,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "T\u01AF DUY \u0110\u1ED8NG V\u1EACT CHO TR\u1EBA EM"
+  m_Text: "KH\xC1M PH\xC1 TH\u1EBE GI\u1EDAI \u0110\u1ED8NG V\u1EACT CHO B\xC9"
 --- !u!222 &1719597880
 CanvasRenderer:
   m_ObjectHideFlags: 0
