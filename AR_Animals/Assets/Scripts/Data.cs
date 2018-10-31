@@ -22,8 +22,8 @@ public class Data : MonoBehaviour
     public static Data instance;
     private static String nameTrack;
 
-    private List<string> names = new List<string> {"Con Bướm","Con Cá Voi","Con mèo","Con chim cánh cụt",
-        "Con Voi", "Con Chim", "Con Nhện","Con Cá Mồi","Con ngựa", "Con Hổ","Con Tê Giác","Ốc Anh Vũ","Kì Nhông","Khỉ Đột","Khủng Long" };
+    private List<string> names = new List<string> {"Con Bướm","Con Cá Voi","Con Mèo","Con Chim Cánh Cụt",
+        "Con Voi", "Con Chim", "Con Nhện","Con Cá Mồi","Con ngựa", "Con Hổ","Con Tê Giác","Con Ốc Anh Vũ","Con Kì Nhông","Con Khỉ Đột","Con Khủng Long" };
 
     private List<string> infos = new List<string> {
 "Là các loài côn trùng nhỏ, biết bay, hoạt động vào ban ngày chúng sống gần các bụi cây nhiều hoa để hút phấn hoa, mật hoa.",
@@ -78,7 +78,7 @@ public class Data : MonoBehaviour
             }
 
             infoName.GetComponent<Text>().text = infos[index];
-            nameButton.GetComponent<Button>().onClick.AddListener(delegate { _LoadSound("NameSound/" + nameTrack); });
+           
 
             openInfo.GetComponent<Button>().onClick.AddListener(delegate { _EnableInfo(false); });
             closeInfo.GetComponent<Button>().onClick.AddListener(delegate { _EnableInfo(true); });

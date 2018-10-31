@@ -25,6 +25,10 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     private AudioSource[] audios;
 
+    
+    private AudioClip clips;
+    private AudioSource soundTarget;
+
     private void _stopAllSounds()
     {
         audios = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
@@ -32,6 +36,16 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         {
             au.Stop();
         }
+    }
+
+
+    private void _LoadSound(string name)
+    {
+        clips = (AudioClip)Resources.Load(name);
+        soundTarget.clip = clips;
+        soundTarget.playOnAwake = false;
+        soundTarget.loop = false;
+        soundTarget.Play();
     }
     #region PRIVATE_MEMBER_VARIABLES
 
@@ -46,6 +60,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         mTrackableBehaviour = GetComponent<TrackableBehaviour>();
         if (mTrackableBehaviour)
             mTrackableBehaviour.RegisterTrackableEventHandler(this);
+
+        soundTarget = (AudioSource)gameObject.AddComponent<AudioSource>();
     }
 
     #endregion // UNTIY_MONOBEHAVIOUR_METHODS
@@ -108,9 +124,18 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         infoPanel.SetActive(true);
         openButton.gameObject.SetActive(false);
         closeButton.gameObject.SetActive(true);
+
+
+        for (int i = 0; i < 15; i++)
+        {
+            if (i.ToString() == mTrackableBehaviour.TrackableName)
+            {
+                string name = i.ToString();
+                _LoadSound("NameSound/" + name);
+            }
+        }
+
     }
-
-
     protected virtual void OnTrackingLost()
     {
         var rendererComponents = GetComponentsInChildren<Renderer>(true);
