@@ -27,7 +27,7 @@
 * Hiển thị thông tin về con vật
 
 ### 4. Link của hình ảnh 2D con vật
-https://drive.google.com/drive/folders/1utYETD-Ae8HDlmJkAKYnVBQ1a2pMvi0M
+https://drive.google.com/drive/folders/18aY6geo6vB0FktwIRUwzx5fausHrfJyY?usp=sharing
 
 
 
