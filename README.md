@@ -18,6 +18,9 @@
 
 ![40684464_915910485271181_5242243447192027136_n](https://user-images.githubusercontent.com/32415728/45043073-6f148980-b096-11e8-8b42-c98fc5b3521e.png)
 
+* Video demo
+ https://www.youtube.com/watch?v=BCcGiF2k7G0&ab_channel=AnhHuynhNgoc
+
 ### 3. Các chức năng chính
 * Hiện thị hình ảnh 3d của con vật khi camera trong ứng dụng nhận diện được hình lá thẻ hình ảnh con vật 2D
 * Phát âm thanh của con vật
